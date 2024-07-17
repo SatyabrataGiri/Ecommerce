@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org" 
+             th:replace="~{base::Layout(~{::section})}">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+     <section>
+     <div class="container-fluid bg-primary p-5 mt-5">
+     <div class="row">
+     <div class="col-md-8 offset-md-2">
+     <form>
+       <div class="input-group">
+         <input type="text" class="form-control" name="ch">
+         <button class="btn btn-light text-dark ms-3 col-md-2"> <i class="fa-solid fa-magnifying-glass"> </i>Search</button>
+       </div>
+     </form>
+     </div>
+     </div>
+     </div>
+     
+     <div class="container-fluid mt-1">
+     <div class="row">
+    
+     <div class="col-md-2 p-1">
+     
+         <div class= "card shadow-sm p-1 mb-5 bg-body-tertiary rounded">
+              <div class="card-body">
+           </div>
+			     <div class="list-group">
+			  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+			    Categories
+			  </a>
+			  <a href="#" class="list-group-item list-group-item-action">Electronics</a>
+			  <a href="#" class="list-group-item list-group-item-action">Mobile Phone</a>
+			  <a href="#" class="list-group-item list-group-item-action">Clothes</a>
+			</div>
+        </div>
+     </div>
+     <div class="col-md-10">
+          <div class="card shadow-sm p-3 mb-5 bg-body-tertiary rounded">
+          <div class="card-body">
+            <p class="fs-3 text-center"> Products </p>
+            <div class="row">
+                <div class="col-md-3">
+                <div class="card">
+                <div class="card-body  ">
+                  <img alt="" src="/img/product_img/hd.png" width="100%" height="150px">
+                    <p Class="fs-5 text-center">AC</p>
+                       <div class="row text-center">
+                          <p class="fs-6 fw-bold" > &#8377; 36500
+                          <span class="fs-6 text-success">20% off</span>
+                          </p>
+                          
+                          <a href="/product" class="btn btn-primary col-md-6 offset-md-3">view details</a>
+                      </div>
+                  </div>
+                 </div>
+                </div>
+                
+                 <div class="col-md-3">
+                <div class="card">
+                <div class="card-body  ">
+                  <img alt="" src="/img/product_img/tablets.png" width="100%" height="150px">
+                    <p Class="fs-5 text-center">Tablets</p>
+                       <div class="row text-center">
+                          <p class="fs-6 fw-bold" > &#8377; 15000
+                          <span class="fs-6 text-success">5% off</span>
+                          </p>
+                          
+                          <a class="btn btn-primary col-md-6 offset-md-3">view details</a>
+                      </div>
+                  </div>
+                 </div>
+                </div>
+                
+                 <div class="col-md-3">
+                <div class="card">
+                <div class="card-body  ">
+                  <img alt="" src="/img/product_img/soap.png" width="100%" height="150px">
+                    <p Class="fs-5 text-center">Soaps</p>
+                       <div class="row text-center">
+                          <p class="fs-6 fw-bold" > &#8377; 100
+                          <span class="fs-6 text-success">17% off</span>
+                          </p>
+                          
+                          <a class="btn btn-primary col-md-6 offset-md-3">View details</a>
+                      </div>
+                  </div>
+                 </div>
+                </div>
+                
+                 <div class="col-md-3">
+                <div class="card">
+                <div class="card-body  ">
+                  <img alt="" src="/img/product_img/fans.png" width="100%" height="150px">
+                    <p Class="fs-5 text-center">FANS</p>
+                       <div class="row text-center">
+                          <p class="fs-6 fw-bold" > &#8377; 1500
+                          <span class="fs-6 text-success">10% off</span>
+                          </p>
+                          
+                          <a class="btn btn-primary col-md-6 offset-md-3">view details</a>
+                      </div>
+                  </div>
+                 </div>
+                </div>
+            </div>
+            
+            <!-- TODO : Remove after backend implement -->
+            
+            
+            
+          </div>
+          </div>
+     </div>
+     </div>
+     </div>
+     </section>
+</body>
+</html>
